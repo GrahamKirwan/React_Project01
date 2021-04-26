@@ -29,7 +29,6 @@ function Expenses(props) {
       <ExpensesChart expenses={filteredExpenses} />
 
         <ExpensesList filtered={filteredExpenses} />
-      {/* {checkForResults} */}
       
     </Card>
   );
